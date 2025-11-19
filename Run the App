@@ -1,0 +1,14 @@
+How to run the app
+
+1- From terminal
+    write the programming language name,  then  the path of the file "main.dart"
+    ex.      > dart  lib/main.dart
+
+
+2-  from Top-Right                                (Run the same file , you are on it)
+      from the Run Icon at the top-right
+
+3-  from the left Icon
+      but make sure to have the main.dart   in the "lib" folder ,      it save the path,  so u must make the main.dart in the "lib" folder
+
+
