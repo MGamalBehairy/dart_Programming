@@ -1,0 +1,8 @@
+dynamic name = "mohamed";    
+
+dynamic name = 123;
+
+dynamic name = 123.5;
+
+// "dynamic"  data type   is  "week"    beucause  its store anything
+
