@@ -1,0 +1,18 @@
+var  is NOT data type    =>   it's  just Keyword
+
+var name = "mohamed";
+
+var age = 15;
+------------------------------------------------------
+
+in this case:-     var  =  dynamic
+// if you didn't set the value of the variable
+var  text;
+text = "mohamed";
+text = 15;
+text = 15.5;
+// text is "dynamic"
+
+  
+  
+
