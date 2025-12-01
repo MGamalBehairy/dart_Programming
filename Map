@@ -21,3 +21,9 @@ Map <int, int> numberOfSeats = [
 ];
 
 print(numberOfSeats[5]);    // output => 10    because 5:23  is neglected
+
+//      Add  New Value to Map
+
+numberOfSets [8] = 23;
+
+
