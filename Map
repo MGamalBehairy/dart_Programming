@@ -1,5 +1,8 @@
 Map   is  Unique Identefier
 
+Map <key        , value>
+Map <identefier , value >
+
 Map <String, int> ages = [
   "ahmed" : 15,
   "ali" : 20,
