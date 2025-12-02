@@ -1,0 +1,45 @@
+!         =>> Execute the Command on your Gurantee
+
+?         =>>    1-    make the variable nullable
+Ex.
+int? num1;    # now it can hold Null Value
+?         =>>     2- First Check  If the variable was Null,    then ignore what comes after it
+Ex.
+int? num1;
+print (num1?.toDouble());      =>> Output:  null          ,   becuase it fond that num1 was Null so it ignored the ".toDouble()". so it becomes like print(num1); 
+
+void main()
+{
+  int num2 = 5;
+  int num1;
+  print(num);      ==> Error
+
+  int? num1;    => u maked it nullable "Can Hold 'Null Value' "
+
+
+
+  int num3 = num1  * num2;    =>> Error on the Operator itself "*"
+
+ # Correct
+
+ if (num1 != null){
+    int num3 = num1 * num2;          =>> Now its correct because the Operation will not execute untill num1 not equal "Null"
+ }
+# OR
+int num3 = num1! * num2;          =>> u inserted "!"  its like a Gurantee on your self that u don't have "Null" values
+
+
+int sum = num1;    =>> Error becuase num1 is "Null"
+
+#Correct
+int sum = num1 ?? 10;    =>> if num1 is Null, then make   sum = 10
+
+
+
+
+
+
+}
+
+
+
