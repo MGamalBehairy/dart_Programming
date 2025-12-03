@@ -1,0 +1,19 @@
+//Named Paramters by default is "Optional Paramters too"    {}        ,   but u can make the variable  "required"
+
+void main() {
+  finalPrice(price: 900, discount: 15);
+  finalPrice(price: 900); // discount is option becuase its "Named Parameters"
+}
+
+double finalPrice({
+  required double? price,                                            //  required to make the variable not Optional
+  double? discount,
+}) // Named Paramters is also Optional,  so the Variable are now  "Nullable"  so u must insert "?"
+{
+  if (discount == null) {
+    discount = 0;
+  }
+  ;
+  double result = price - price / discount;
+  return result;
+}
