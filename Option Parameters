@@ -1,0 +1,15 @@
+void main()
+{
+  
+}
+
+double finalPrince( int price, [int? discount, int num3=0])          ==> Option parameters must come at the LAST [],    u can insert value if the user didn't insert value for this variable, and u must put "?" to make it nullable if u didn't put option value
+{
+  if (discount == null)
+  {
+    discount = 0;
+  }
+
+  double result = price -  price/discount;
+  return result;
+}
